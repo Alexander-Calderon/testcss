@@ -1,0 +1,99 @@
+html {
+  font-size: 15px; }
+
+/*Estilos bloque principal*/
+.principal {
+  background: url("../images/BackgroundSmall.jpg");
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden; }
+
+.navbar-fixed-top {  /* Encabezado */
+  background: rgba(87, 87, 101, 0.3); }
+
+.navbar-light .navbar-brand {  /* Texto Logo */
+  color: #fdfdfd;
+  font-size: 1.3rem;
+  text-transform: uppercase; }
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover,.navbar-light .navbar-brand.pg-state-focus,.navbar-light .navbar-brand.pg-state-focus,.navbar-light .navbar-brand.pg-state-hover {/* Texto Logo enfocado*/
+  color: rgba(255, 255, 255, 0.98); }
+
+.navbar-toggler {  /* Icono menu desplegable */
+  font-size: 1.7rem;
+  color: #fff !important; }
+
+.navbar-light .navbar-nav .nav-link { /* elementos lista menu desplegable */
+  color: rgb(247, 255, 205);
+  text-align: center;
+  padding: .4rem;  
+  background-color: rgba(101, 119, 134, 0.33);
+  text-transform: uppercase; }
+
+.navbar-light .navbar-nav .open > .nav-link, .navbar-light .navbar-nav .open > .nav-link:focus, .navbar-light .navbar-nav .open > .nav-link:hover, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .active > .nav-link:focus, .navbar-light .navbar-nav .active > .nav-link:hover, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .nav-link.open:focus, .navbar-light .navbar-nav .nav-link.open:hover, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.active:focus, .navbar-light .navbar-nav .nav-link.active:hover,.navbar-light .navbar-nav .open > .nav-link.pg-state-focus,.navbar-light .navbar-nav .open > .nav-link.pg-state-focus,.navbar-light .navbar-nav .nav-link.open.pg-state-focus,.navbar-light .navbar-nav .open > .nav-link.pg-state-focus,.navbar-light .navbar-nav .active > .nav-link.pg-state-focus,.navbar-light .navbar-nav .nav-link.open.pg-state-focus,.navbar-light .navbar-nav .nav-link.active.pg-state-focus,.navbar-light .navbar-nav .open > .nav-link.pg-state-focus,.navbar-light .navbar-nav .open > .nav-link.pg-state-hover,.navbar-light .navbar-nav .active > .nav-link.pg-state-focus,.navbar-light .navbar-nav .active > .nav-link.pg-state-hover,.navbar-light .navbar-nav .nav-link.open.pg-state-focus,.navbar-light .navbar-nav .nav-link.open.pg-state-hover,.navbar-light .navbar-nav .nav-link.active.pg-state-focus,.navbar-light .navbar-nav .nav-link.active.pg-state-hover {
+  color: rgba(255, 255, 255, 0.95);
+  background: rgb(95, 116, 121) }
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover,.navbar-light .navbar-nav .nav-link.pg-state-focus,.navbar-light .navbar-nav .nav-link.pg-state-focus,.navbar-light .navbar-nav .nav-link.pg-state-hover {/* enClick*/
+  color: white;
+  background: rgb(16, 162, 157); }
+
+#menuprincipal {
+  clear: both; }
+
+.texto-principal {
+  color: #fff;
+  margin-top: 9rem;
+
+font-family: Montserrat; }
+
+/*Estilos bloque Conocimientos*/
+.iconosFA .fa {
+  color: rgb(81, 129, 132);
+  font-size: 6rem; }
+
+.iconosFA h3 {
+  font-weight: bold; }
+
+
+
+
+
+
+
+/*Estilos Ultimos proyectos*/
+.extra {
+  background: #389581;
+  color: #fff; }
+
+.extra a {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 1.5rem; }
+
+.extra img {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  min-width: 100%; }
+
+.extra a:hover img,.extra a.pg-state-hover img {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5); }
+
+/**Estilos bloque Pie de pagina*/
+.footer {
+  color: #fff;
+  background: #222222; }
+
+/*EMPIEZAN LOS MEDIAS QUERIES CONDICIONALES*/
+@media (min-width: 768px) {
+  html {
+    font-size: 16px; }
+
+  #menuprincipal {
+    clear: inherit; }
+
+  .principal {
+    background: url("../images/BackgroundBig.jpg");
+    background-size: cover; } }.container{text-align: center}
