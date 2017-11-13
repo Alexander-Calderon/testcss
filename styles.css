@@ -3,7 +3,7 @@ html {
 
 /*Estilos bloque principal*/
 .principal {
-  background: url("../images/BackgroundSmall.jpg");
+  background: url("https://i62.servimg.com/u/f62/19/50/44/98/backgr10.jpg");
   background-size: cover;
   height: 100vh;
   overflow: hidden; }
@@ -95,5 +95,5 @@ font-family: Montserrat; }
     clear: inherit; }
 
   .principal {
-    background: url("../images/BackgroundBig.jpg");
+    background: url("https://i62.servimg.com/u/f62/19/50/44/98/backgr11.jpg");
     background-size: cover; } }.container{text-align: center}
